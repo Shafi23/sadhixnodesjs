@@ -8,7 +8,7 @@ const PORT = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World from Node.js Server , This is sadhix institute im admin \n');
+  res.end('Hello World from Node.js Server , This is admin sadhix institute im admin \n');
 });
 
 // Start the server
